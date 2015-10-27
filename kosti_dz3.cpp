@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "Russian");
-	int a, b, f, g, c=3;
+	int a, b, f, g, c=3; //зачем нам аж 4 перемнных для результата броска? Одной не хватит?????
 	srand(time(NULL));
 	while (c != 0)
 	{
