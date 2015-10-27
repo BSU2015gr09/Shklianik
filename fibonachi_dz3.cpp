@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "Russian");
-	float mas[80], a, b;
+	float mas[80], a, b;// зачем массив нужен???
 	int n;
 	cout << "                                  Отношение                             " << endl;
 	cout << "         Последующее к предыдущему    |    Предыдущее к последующему    " << endl;
